@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(80, 78, 78);
+    color: white;
+}
+
+.h1 {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#height {
+    margin-bottom: 20px;
+    
+}
+
+#width {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    background-color: bisque;
+    border:2px solid bisque;
+    
+}
+
+.button{
+    background-color: bisque;
+    border: 2px solid bisque;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+label {
+    margin-right: 10px; 
+}
+
+#result{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 15px;
+}
